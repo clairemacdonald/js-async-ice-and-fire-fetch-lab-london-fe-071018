@@ -1,11 +1,7 @@
 function fetchBooks(){
-fetch(url) // Call the fetch function passing the url of the API as a parameter
-.then(function() {
-    // Your code for handling the data you get from the API
-})
-.catch(function() {
-    // This is where you run code if the server returns any errors
-});
+fetch('https://anapioficeandfire.com/api/books')
+  .then(resp => resp.json())
+  .then(json => console.log(json));
 }
 
   //write fetch request to the Game of Thrones API

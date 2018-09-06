@@ -1,5 +1,11 @@
 function fetchBooks(){
-  
+  fetch(url) 
+.then(function() {
+    
+})
+.catch(function() {
+    
+});
 }
 
   //write fetch request to the Game of Thrones API
